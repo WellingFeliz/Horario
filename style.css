@@ -1,0 +1,152 @@
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+body{
+
+  background: black;
+
+  animation: bgcolor 5s infinite;
+
+  animation-delay: 1s;
+
+}
+
+h1{
+
+  color: white;
+
+  margin-top: 110px;
+
+}
+
+.table-scl{
+
+  width: 100%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  height: 100%;
+
+  text-align: center;
+
+  display: flex;
+
+  display: inline-block;
+
+}
+
+table{
+
+  margin-top: 100px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  max-width: 350px;
+
+}
+
+table, th, td{
+
+  border: 2px solid #00DEFF;
+
+  border-collapse: collapse;
+
+  width: 100%;
+
+  color: white;
+
+  animation: animate 5s infinite;
+
+  animation-delay: 2s;
+
+}
+
+@keyframes animate {
+
+  
+
+  0% {
+
+    filter: hue-rotate (360deg);
+
+    border: 2px solid #A900FF;
+
+  }
+
+  
+
+  20% {
+
+    filter: hue-rotate (360deg);
+
+    border: 2px solid #2FA236;
+
+  }
+
+  
+
+  50% {
+
+    filter: hue-rotate (360deg);
+
+    border: 2px solid #FF00D0;
+
+  }
+
+  
+
+  60% {
+
+   filter: hue-rotate (360deg);
+
+    border: 2px solid #D2B42D;
+
+  }
+
+  
+
+  100% {
+
+    filter: hue-rotate (360deg);
+
+    border: 2px solid #00DEFF;
+
+  }
+
+}
+
+td, th{
+
+  padding: 5px;
+
+  text-align: center;
+
+}
+
+.recreo td{
+
+  padding-top: 10px;
+
+  padding-bottom: 10px;
+
+}
+
+p{
+
+  color: white;
+
+  font-size: 15px;
+
+  margin-top: 5px;
+
+}
+
